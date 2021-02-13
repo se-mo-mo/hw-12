@@ -1,0 +1,118 @@
+//ex1
+
+//nslookup cmd =>
+
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	twitter.com
+Address: 10.10.34.35
+
+//ping.eu =>
+
+104.244.42.1
+
+//ping  nslookup
+
+25 packets transmitted, 0 received, 100% packet loss, time 24573ms
+
+// traceroute 104.244.42.65
+
+traceroute to twitter.com (104.244.42.65), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.445 ms  2.416 ms  2.393 ms
+ 2  46.100.154.3 (46.100.154.3)  612.235 ms  612.249 ms  617.145 ms
+ 3  10.87.124.37 (10.87.124.37)  617.158 ms  617.822 ms  617.850 ms
+ 4  10.22.26.90 (10.22.26.90)  617.848 ms  618.523 ms  619.990 ms
+ 5  80.210.16.65 (80.210.16.65)  618.538 ms  618.485 ms  618.989 ms
+ 6  10.21.251.41 (10.21.251.41)  620.397 ms  394.508 ms  394.431 ms
+ 7  10.21.21.161 (10.21.21.161)  394.384 ms  316.649 ms  318.460 ms
+ 8  10.202.4.212 (10.202.4.212)  327.349 ms 10.202.6.24 (10.202.6.24)  327.423 ms 10.202.4.212 (10.202.4.212)  327.236 ms
+ 9  193.251.252.153 (193.251.252.153)  379.480 ms ix-et-4-0-5-0.tcore2.fnm-frankfurt.as6453.net (195.219.87.198)  384.701 ms 193.251.252.153 (193.251.252.153)  379.240 ms
+10  et-15-0-3-0.ffttr7.frankfurt.opentransit.net (193.251.133.244)  384.300 ms ffm-b1-link.telia.net (213.248.82.40)  382.033 ms 193.251.132.163 (193.251.132.163)  388.191 ms
+11  twitter-ic-322866-ffm-b1.c.telia.net (62.115.49.187)  384.046 ms  384.008 ms  256.623 ms
+12  ae-3.r20.frnkge13.de.bb.gin.ntt.net (129.250.6.33)  268.935 ms 104.244.42.65 (104.244.42.65)  273.270 ms  263.156 ms
+
+explain them:
+
+1 == modem ya gateway
+2 == mokhaberat 
+iran address:Mazandaran - Babol - Telecommunication Company of Mazandaran
+e-mail:farhad.eshaghi@tci.ir
+3 == private use and reserved for special use
+4 == same as 3
+5 == kermanshah  Organization:Telecommunication Company of Kermanshah tci.ir
+6 == same as 3
+7 == same as 3
+8 == same as 3
+9 ==  City:Frankfurt am Main orange
+10 == same as 9 and Telia Company AB (telia.se)
+11 == Stockholm TeliaSonera AB (telia.se)
+12 ==  California twitter inc
+
+//traceroute 10.10.34.35
+
+traceroute to 10.10.34.35 (10.10.34.35), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  1.400 ms  2.256 ms *
+ 2  46.100.154.3 (46.100.154.3)  46.993 ms  49.114 ms  49.202 ms
+ 3  10.87.124.37 (10.87.124.37)  49.736 ms  52.216 ms  53.959 ms
+ 4  10.22.26.90 (10.22.26.90)  64.330 ms  65.970 ms  68.654 ms
+ 5  80.210.16.70 (80.210.16.70)  68.721 ms  70.375 ms  72.809 ms
+ 6  78.39.161.238 (78.39.161.238)  77.233 ms  72.214 ms  73.981 ms
+ 7  185.57.202.242 (185.57.202.242)  75.498 ms  54.866 ms  55.453 ms
+ 8  185.57.202.229 (185.57.202.229)  55.863 ms  57.127 ms  58.263 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+explain them:
+1 == modem
+2 == sari iran mokhaberat
+3 == private network
+4 == same as 3
+5 == kermanshah
+6 == tehran
+7 == tehran dci.co.ir
+8 == same as 7
+
+ 
+//ex2
+my ip: 192.168.1.101
+
+//ex4
+web servers:
+1- apache http 
+2- nginx
+3- lighttpd
+4- caddy
+5- liteSpeed
+6- Bluehost
+
+reasons: 
+1- upTime
+2- fast load time
+3- upTime fuarantee
+4- price
+5- easy to use
+6- dataCenters
+7- support
+https://websitesetup.org/best-web-hosting-sites/
